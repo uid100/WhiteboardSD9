@@ -6,7 +6,7 @@ namespace WhiteboardSD9
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("WhiteboardSD9.Program.Main()");
+            Console.WriteLine("WhiteboardSD9.Program.Main() ");
         }
     }
 }
