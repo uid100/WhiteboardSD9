@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alphabetize", "Alphabetize\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphabetizeTest", "AlphatizeTest\AlphabetizeTest.csproj", "{E2B196B5-FCED-43B0-89DD-379E52941655}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CamelCase", "CamelCase\CamelCase.csproj", "{3155C284-4655-4223-9FD8-3489A8AA586E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CamelCaseTest", "CamelCaseTest\CamelCaseTest.csproj", "{562B89CB-7B3A-4E0C-9BE2-7A4005638561}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{E2B196B5-FCED-43B0-89DD-379E52941655}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2B196B5-FCED-43B0-89DD-379E52941655}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2B196B5-FCED-43B0-89DD-379E52941655}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3155C284-4655-4223-9FD8-3489A8AA586E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3155C284-4655-4223-9FD8-3489A8AA586E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3155C284-4655-4223-9FD8-3489A8AA586E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3155C284-4655-4223-9FD8-3489A8AA586E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{562B89CB-7B3A-4E0C-9BE2-7A4005638561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{562B89CB-7B3A-4E0C-9BE2-7A4005638561}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{562B89CB-7B3A-4E0C-9BE2-7A4005638561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{562B89CB-7B3A-4E0C-9BE2-7A4005638561}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
