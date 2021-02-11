@@ -3,25 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhiteboardSD9", "WhiteboardSD9\WhiteboardSD9.csproj", "{B5A29401-05C4-4A5F-8624-D17088129748}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhiteboardSD9", "WhiteboardSD9\WhiteboardSD9.csproj", "{B5A29401-05C4-4A5F-8624-D17088129748}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Circle", "Circle\Circle.csproj", "{BDA99F63-DBB0-4D6E-BCD7-3CE4F26934A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Circle", "Circle\Circle.csproj", "{BDA99F63-DBB0-4D6E-BCD7-3CE4F26934A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Squares", "Squares\Squares.csproj", "{85D04D86-48BA-47BF-AA02-42403D8D944A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Squares", "Squares\Squares.csproj", "{85D04D86-48BA-47BF-AA02-42403D8D944A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquaresTest", "SquaresTest\SquaresTest.csproj", "{843D2768-052D-4A86-B513-41AF9E4646D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SquaresTest", "SquaresTest\SquaresTest.csproj", "{843D2768-052D-4A86-B513-41AF9E4646D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triangles", "Triangles\Triangles.csproj", "{85346559-3D4F-46E4-A054-036D0D950CBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Triangles", "Triangles\Triangles.csproj", "{85346559-3D4F-46E4-A054-036D0D950CBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrianglesTest", "TrianglesTest\TrianglesTest.csproj", "{5A23FFF4-2DAB-48A2-B1F6-73611E6F4F19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrianglesTest", "TrianglesTest\TrianglesTest.csproj", "{5A23FFF4-2DAB-48A2-B1F6-73611E6F4F19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alphabetize", "Alphabetize\Alphabetize.csproj", "{AE1EC0B9-62D8-4D52-8C31-368A4F145A39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alphabetize", "Alphabetize\Alphabetize.csproj", "{AE1EC0B9-62D8-4D52-8C31-368A4F145A39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphabetizeTest", "AlphatizeTest\AlphabetizeTest.csproj", "{E2B196B5-FCED-43B0-89DD-379E52941655}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlphabetizeTest", "AlphatizeTest\AlphabetizeTest.csproj", "{E2B196B5-FCED-43B0-89DD-379E52941655}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CamelCase", "CamelCase\CamelCase.csproj", "{3155C284-4655-4223-9FD8-3489A8AA586E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CamelCase", "CamelCase\CamelCase.csproj", "{3155C284-4655-4223-9FD8-3489A8AA586E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CamelCaseTest", "CamelCaseTest\CamelCaseTest.csproj", "{562B89CB-7B3A-4E0C-9BE2-7A4005638561}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CamelCaseTest", "CamelCaseTest\CamelCaseTest.csproj", "{562B89CB-7B3A-4E0C-9BE2-7A4005638561}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Primes", "Primes\Primes.csproj", "{EDD9B863-9C4B-4AE1-90B1-E4D7E13142EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimesTest", "PrimesTest\PrimesTest.csproj", "{3C503048-63D4-4ADB-8F9E-7C53C7716AC2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{562B89CB-7B3A-4E0C-9BE2-7A4005638561}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{562B89CB-7B3A-4E0C-9BE2-7A4005638561}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{562B89CB-7B3A-4E0C-9BE2-7A4005638561}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDD9B863-9C4B-4AE1-90B1-E4D7E13142EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDD9B863-9C4B-4AE1-90B1-E4D7E13142EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDD9B863-9C4B-4AE1-90B1-E4D7E13142EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDD9B863-9C4B-4AE1-90B1-E4D7E13142EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C503048-63D4-4ADB-8F9E-7C53C7716AC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C503048-63D4-4ADB-8F9E-7C53C7716AC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C503048-63D4-4ADB-8F9E-7C53C7716AC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C503048-63D4-4ADB-8F9E-7C53C7716AC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
