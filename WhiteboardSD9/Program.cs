@@ -7,6 +7,9 @@ namespace WhiteboardSD9
         static void Main(string[] args)
         {
             Console.WriteLine("WhiteboardSD9.Program.Main() ");
+
+            // Run Ex6A test cases
+            ArrayMethods.ArrayClass.TestMethodsForEx6A();
         }
     }
 }
