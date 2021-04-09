@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhiteboardSD9", "WhiteboardSD9\WhiteboardSD9.csproj", "{B5A29401-05C4-4A5F-8624-D17088129748}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "__CodeExercises", "WhiteboardSD9\__CodeExercises.csproj", "{B5A29401-05C4-4A5F-8624-D17088129748}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Circle", "Circle\Circle.csproj", "{BDA99F63-DBB0-4D6E-BCD7-3CE4F26934A2}"
 EndProject
@@ -33,9 +33,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArraySortTest", "ArraySortT
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayMethods", "Arrays\ArrayMethods.csproj", "{F6E8FEA3-C77B-4E2B-9259-E6E88CC1A949}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayMethodsTest", "ArraysTest\ArrayMethodsTest.csproj", "{3D09E532-1EE2-4506-B630-E346C8CD85EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayMethodsTest", "ArraysTest\ArrayMethodsTest.csproj", "{3D09E532-1EE2-4506-B630-E346C8CD85EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddOrEven", "OddOrEven\OddOrEven.csproj", "{F1677F76-BB97-4C67-9D73-FA27C3E625CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OddOrEven", "OddOrEven\OddOrEven.csproj", "{F1677F76-BB97-4C67-9D73-FA27C3E625CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CaesarCipher", "CaesarCypher\CaesarCipher.csproj", "{D9A035A5-7619-4630-9EDD-F1B9961F72B0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CaesarCipherTest", "CaesarCypherTest\CaesarCipherTest.csproj", "{7EA667F6-7454-47AD-9082-72102E66AF79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryFunctions", "BinaryFunctions\BinaryFunctions.csproj", "{B48EF787-0F5A-44AF-A16F-9665BED17F8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryFunctionsTest", "BinaryFunctionsTest\BinaryFunctionsTest.csproj", "{35091CE2-1CE9-4025-BD60-8A3042DA6433}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar", "Calendar\Calendar.csproj", "{FCBBDC2A-B65D-455B-841E-83F0EBB777C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalendarTest", "CalendarTest\CalendarTest.csproj", "{46551A1F-B33D-4B91-AD6A-88D5FDB8A93D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clock", "Clock\Clock.csproj", "{7ECF238B-3AAF-4DA3-A9C8-735F85769124}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClockTest", "ClockTest\ClockTest.csproj", "{C2EFA489-73B1-4E13-B61A-91333C2D6316}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +127,38 @@ Global
 		{F1677F76-BB97-4C67-9D73-FA27C3E625CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1677F76-BB97-4C67-9D73-FA27C3E625CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1677F76-BB97-4C67-9D73-FA27C3E625CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9A035A5-7619-4630-9EDD-F1B9961F72B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9A035A5-7619-4630-9EDD-F1B9961F72B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9A035A5-7619-4630-9EDD-F1B9961F72B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9A035A5-7619-4630-9EDD-F1B9961F72B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EA667F6-7454-47AD-9082-72102E66AF79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EA667F6-7454-47AD-9082-72102E66AF79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EA667F6-7454-47AD-9082-72102E66AF79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EA667F6-7454-47AD-9082-72102E66AF79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B48EF787-0F5A-44AF-A16F-9665BED17F8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B48EF787-0F5A-44AF-A16F-9665BED17F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B48EF787-0F5A-44AF-A16F-9665BED17F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B48EF787-0F5A-44AF-A16F-9665BED17F8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35091CE2-1CE9-4025-BD60-8A3042DA6433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35091CE2-1CE9-4025-BD60-8A3042DA6433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35091CE2-1CE9-4025-BD60-8A3042DA6433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35091CE2-1CE9-4025-BD60-8A3042DA6433}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCBBDC2A-B65D-455B-841E-83F0EBB777C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCBBDC2A-B65D-455B-841E-83F0EBB777C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCBBDC2A-B65D-455B-841E-83F0EBB777C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCBBDC2A-B65D-455B-841E-83F0EBB777C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46551A1F-B33D-4B91-AD6A-88D5FDB8A93D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46551A1F-B33D-4B91-AD6A-88D5FDB8A93D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46551A1F-B33D-4B91-AD6A-88D5FDB8A93D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46551A1F-B33D-4B91-AD6A-88D5FDB8A93D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ECF238B-3AAF-4DA3-A9C8-735F85769124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ECF238B-3AAF-4DA3-A9C8-735F85769124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ECF238B-3AAF-4DA3-A9C8-735F85769124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ECF238B-3AAF-4DA3-A9C8-735F85769124}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2EFA489-73B1-4E13-B61A-91333C2D6316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2EFA489-73B1-4E13-B61A-91333C2D6316}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2EFA489-73B1-4E13-B61A-91333C2D6316}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2EFA489-73B1-4E13-B61A-91333C2D6316}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
